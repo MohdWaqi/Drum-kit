@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+.font {
+    @apply font-arvo
+}
+@tailwind utilities;
+.btn{
+    @apply  border-teal-400 border-10 rounded-3xl m-2 text-5xl bg-white text-teal-500 sm:m-6 lg:m-2 lg:text-7xl
+    relative transition
+}
+.imgsize{
+    @apply h-40 w-40 rounded-3xl
+}
+.letter{
+    @apply absolute outline-dotted bg-teal-100 rounded-full h-12 w-12 bottom-4 left-14 lg:left-11 lg:h-16 lg:w-16 
+}
